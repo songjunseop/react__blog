@@ -1,0 +1,92 @@
+/* header */
+#header {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 1200px;
+    white-space: nowrap;
+    height: 80px;
+}
+#header .logo {
+    flex: 0 0 20%;
+}
+#header .logo a {
+    font-size: 30px;
+    padding: 12px 18px;
+    display: inline-block;
+}
+#header .logo a em {
+    font-size: 18px;
+    font-weight: 300;
+}
+#header .menu {
+    flex: 0 0 60%;
+    text-align: center;
+}
+#header .menu li {
+    display: inline;
+    position: relative;
+}
+#header .menu li a {
+    padding: 20px 30px;
+    display: inline-block;
+}
+#header .menu li a:hover {
+    background: #f5f5f5;
+    border-radius: 5px;
+}
+#header .menu li ul.sub {
+    position: absolute;
+    left: -25%;
+    top: 38px;
+    padding: 15px 0;
+    z-index: 10;
+    opacity: 0;
+    visibility: hidden;
+    background: #fff;
+    border: 1px solid #f5f5f5;
+}
+#header .menu li ul.sub li {
+    display: block;
+}
+#header .menu li ul.sub li a {
+    padding: 10px 30px;
+}
+#header .menu li ul li a:hover {
+    text-decoration: underline;
+    background: transparent;
+}
+#header .menu li:hover ul.sub {
+    opacity: 1;
+    visibility: visible;
+}
+
+#header .member {
+    flex: 0 0 20%;
+    text-align: right;
+    padding: 5px 0px;
+}
+#header .member .setting {
+    border: 0;
+}
+#header .member .setting img {
+    width: 30px;
+    height: 30px;
+    vertical-align: middle;
+    padding-right: 5px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+/* #header .member a {
+    display: inline-block;
+    padding: 9px 22px;
+    border: 1px solid #000;
+    border-radius: 50px;
+} */
+
+#header .member p {
+    display: inline-block;
+    margin: 0 5% 0 2%;
+}

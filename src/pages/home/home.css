@@ -1,0 +1,59 @@
+/* section */
+.section {
+    padding: 120px 0;
+}
+.section#slideType08 {
+    padding: 0;
+    margin-bottom: 0;
+}
+.section__title {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.section__desc {
+    font-size: 22px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #777;
+    margin-bottom: 80px;
+}
+.center {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .section__title {
+        font-size: 24px;
+    }
+    .section__desc {
+        font-size: 18px;
+    }
+}
+
+/* 컨테이너 */
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+#contents {
+    min-height: 70vh;
+}
+@media (max-width: 1220px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+/* 블로그 */
+.blog__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.search {
+    width: 60%;
+}
+.button {
+    position: absolute;
+}

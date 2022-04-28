@@ -1,0 +1,102 @@
+/* blog */
+.blog__inner {
+}
+.blog__search {
+    margin-bottom: 80px;
+    position: relative;
+}
+.blog__search .result {
+    text-align-last: left;
+}
+.blog__search .search {
+    border: 1px solid #c6c6c6;
+    padding: 15px 30px;
+    border-radius: 50px;
+    min-width: 300px;
+    margin-bottom: 40px;
+}
+.blog__search .button {
+    width: 46px;
+    height: 46px;
+    /* background-image: url(../img/blog/search.svg); */
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* text-indent: -9999px; */
+    border-radius: 50%;
+    cursor: pointer;
+    transition: box-shadow 0.3s;
+    position: absolute;
+    right: 20.1%;
+    top: 2px;
+}
+.blog__search .button:hover {
+    box-shadow: inset 0 0 0 3px #217594;
+}
+.blog__cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+.blog__cont .blog {
+    flex: 1 1 29%;
+    margin: 0 2% 5%;
+}
+.blog__cont .blog img {
+    border-radius: 10px 10px 0 0;
+}
+
+.blog__body {
+    width: 100%;
+    text-align: left;
+    background: #eceff7;
+    padding: 20px;
+    border-radius: 0 0 10px 10px;
+}
+.blog__cate {
+    background: rgb(27, 233, 0);
+    border-radius: 20px;
+    padding: 4px 15px 5px;
+    display: inline-block;
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.blog__title {
+    font-size: 26px;
+    margin-bottom: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.blog__desc {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+.blog__info {
+    color: #777;
+}
+.blog__info a {
+    color: #777;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+.blog__info .author {
+}
+.blog__info .date {
+}
+.blog__info .modify {
+    float: right;
+    padding-left: 5px;
+}
+.blog__info .delete {
+    float: right;
+}

@@ -1,0 +1,56 @@
+
+.blog__label {
+    color: #fff;
+    background: url(https://source.unsplash.com/800x600/?nature,water);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 150px 0;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.blog__label::before {
+    content: '';
+    position: absolute;
+    left: 0;top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: -1;
+}
+.blog__label .author a {
+    color: #fff;
+}
+.blog__label .modify a {
+    color: #fff;
+    opacity: 0.6;
+    font-size: 0.8em;
+}
+.blog__label .delete a {
+    color: #fff;
+    opacity: 0.6;
+    font-size: 0.8em;
+}
+.blog__layout {
+    display: flex;
+    justify-content: space-between;
+}
+.blog__left {
+    width: calc(100% - 340px);
+    /* background: #ccc; */
+    text-align: left;
+    line-height: 1.8;
+    margin-top: 80px;
+    min-height: 800px;
+}
+.blog__left h4 {
+    font-weight: 500;
+    font-size: 1.4rem;
+    margin-bottom: 0.6em;
+}
+.blog__right {
+    width: 300px;
+    background: #ccc;
+    margin-top: 80px;
+}
