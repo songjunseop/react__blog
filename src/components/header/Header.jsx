@@ -24,7 +24,7 @@ export default function Header() {
                         <Link to="/join">회원가입</Link>
                     </li>
                     <li>
-                        <Link to="/">블로그</Link>
+                        <Link to="/write">블로그 글쓰기</Link>
                     </li>
                     {/* <li>
                         <a href="/">퀴즈</a>
@@ -44,7 +44,7 @@ export default function Header() {
             </nav>
             <div className="member">
                 <span className="ir_so">회원 정보 영역</span>
-                <Link to="/" className="setting">
+                <Link to="/mypage" className="setting">
                     <img
                         src="https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500
 "

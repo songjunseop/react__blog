@@ -47,10 +47,10 @@
 }
 
 /* 블로그 */
-.blog__inner {
+/* .blog__inner {
     display: flex;
     justify-content: space-between;
-}
+} */
 .search {
     width: 60%;
 }

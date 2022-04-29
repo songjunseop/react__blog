@@ -1,5 +1,5 @@
-import React from 'react'
-import './view.css'
+import React from 'react';
+import './view.css';
 import {Link} from 'react-router-dom';
 
 export default function View() {

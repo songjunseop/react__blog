@@ -52,13 +52,13 @@
     position: relative;
     text-align: center;
 }
-.join-intro .face {
+/* .join-intro .face img {
     width: 180px;
     height: 180px;
     margin: 50px auto 0 auto;
     border-radius: 50%;
     background: #b7b7b7;
-}
+} */
 .join-intro input {
     background: #dfdfdf;
     border: 1px solid #dfdfdf;
